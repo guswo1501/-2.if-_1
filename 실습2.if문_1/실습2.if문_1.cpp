@@ -26,10 +26,11 @@ int main()
 	else if (age >= 20)
 	{
 		std::cout << "성인\n";
-	}
-	if (age >= 200)
-	{
-		std::cout << "나이가 너무 많습니다..!\n";
+
+		if (age >= 200)
+		{
+			std::cout << "나이가 너무 많습니다..!\n";
+		}
 	}
 	return 0;
 }
